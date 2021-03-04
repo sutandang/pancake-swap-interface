@@ -1,0 +1,118 @@
+#root a{
+	color:#834b0b;
+}
+
+#root div{
+	color:#834b0b;
+}
+
+#root svg {
+    fill: #834b0b;
+}
+
+#root .belxYo{
+	background-image: none !important;
+	background-color: #f4f8f1 !important;
+	box-shadow: none;
+}
+
+#root .eFunNW {
+    max-width: 950px !important;
+    background: none !important;
+}
+
+#root #terraswap {
+    background: #fff;
+    height: 200px;
+    padding: 50px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#root .jUTRyE{
+	box-shadow: none;
+	border-radius: 0;
+}
+
+#root #token-presale-btn {
+    background-color: #82ba23;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0px 3px 2px #d6dad3;
+    height: 55px;
+    border-radius: 10px;
+}
+
+#root #token-presale {
+    text-align: center;
+}
+
+#root .box-swap {
+    width: 490px;
+    margin: auto;
+}
+
+#root .box-swap h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#root .box-swap-two {
+    width: 50%;
+    float: left;
+}
+
+#root .box-swap-first {
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    min-height: 350px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: url(./images/bg@2x.png);*/
+}
+
+#root .box-swap-last {
+    background: #fff;
+    margin-left: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    min-height: 350px;
+    position: relative;
+}
+
+.box-swap-two h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.row-box {
+    margin-top: 30px;
+}
+
+.coming-soon {
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.box-swap-last ul {
+    margin-top: 20px;
+}
+
+.box-swap-last ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.dash-tree {
+    float: right;
+}
+
+.coming-soon-bottom {
+    position: absolute;
+    bottom: 40px;
+}

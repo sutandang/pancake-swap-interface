@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 const Card = styled.div<any>`
   width: 100%;
+  color: #8f80ba;
   border-radius: 16px;
   padding: 1.25rem;
   padding: ${({ padding }) => padding};
