@@ -271,47 +271,58 @@ const Swap = () => {
       />
       
       <AppBody>
-        <Wrapper id="swap-page">
-          <div id="terraswap"> 
-            <div className="box-swap">
-              <h2> TerraSwap </h2>
-              <p> The First Sustainable AMM and yield farm on Binance Smart chain. 1% pool will be given back to the planet</p>
+          <Wrapper id="swap-page">
+            <div id="terraswap"> 
+              <div className="box-background" style={{
+            backgroundImage: `url("/images/bg@2x.png")`
+            }}>
+                <div className="box-swap">
+                  <h2> TerraSwap </h2>
+                  <p> The First Sustainable AMM and yield farm on Binance Smart chain. 1% pool will be given back to the planet</p>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div id="token-presale">
-            <Button id="token-presale-btn" to="/add/ETH">
-              <TranslatedText translationId={100}>Token Presale</TranslatedText>
-            </Button>
-          </div>
-          
-          <div className="row-box">
-            <div className="box-swap-two">
-              <div className="box-swap-first">
-                <h2> Planting and Staking </h2>
-                <p className="coming-soon"> Coming soon... </p>
+            <div id="token-presale">
+              <Button id="token-presale-btn" to="/add/ETH">
+                <TranslatedText translationId={100}>Token Presale</TranslatedText>
+              </Button>
+            </div>
+            
+            <div className="row-box">
+              <div className="box-swap-two">
+                <div className="box-swap-background">
+                  <div className="box-swap-first" style={{
+                     backgroundImage: `url("/images/bg2@2x.png")`
+                    }}>
+                      <h2> Planting and Staking </h2>
+                      <div className="box-swap-image">
+                        <img src="/images/token@2x.png" alt="TerraSwap" />
+                        <p className="coming-soon"> Coming soon... </p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div className="box-swap-two">
+                <div className="box-swap-last">
+                  <h2> Tree Stats </h2>
+                  <p> 
+                    <ul>
+                      <li> <span> Total TREE Supply </span> <span className="dash-tree"> - </span> </li>
+                      <li> <span> USD Market Cap </span> <span className="dash-tree"> - </span> </li>
+                      <li> <span> Total Tree CUt/Burned </span> <span className="dash-tree"> - </span> </li>
+                      <li> <span> New TREE/block </span> <span className="dash-tree"> - </span> </li>
+                    </ul>
+                  </p>
+                  <p className="coming-soon-bottom"> Coming soon</p>
+                </div>
               </div>
             </div>
-            <div className="box-swap-two">
-              <div className="box-swap-last">
-                <h2> Tree Stats </h2>
-                <p> 
-                  <ul>
-                    <li> <span> Total TREE Supply </span> <span className="dash-tree"> - </span> </li>
-                    <li> <span> USD Market Cap </span> <span className="dash-tree"> - </span> </li>
-                    <li> <span> Total Tree CUt/Burned </span> <span className="dash-tree"> - </span> </li>
-                    <li> <span> New TREE/block </span> <span className="dash-tree"> - </span> </li>
-                  </ul>
-                </p>
-                <p className="coming-soon-bottom"> Coming soon</p>
-              </div>
-            </div>
-          </div>
-        </Wrapper>
+          </Wrapper>
       </AppBody>
       <AdvancedSwapDetailsDropdown trade={trade} />
     </>
-  )
+  );
 }
 
 export default Swap

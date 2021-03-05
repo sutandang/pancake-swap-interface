@@ -1,9 +1,9 @@
 #root a{
-	color:#834b0b;
+    color:#834b0b;
 }
 
 #root div{
-	color:#834b0b;
+    color:#834b0b;
 }
 
 #root svg {
@@ -11,9 +11,9 @@
 }
 
 #root .belxYo{
-	background-image: none !important;
-	background-color: #f4f8f1 !important;
-	box-shadow: none;
+    background-image: none !important;
+    background-color: #f4f8f1 !important;
+    box-shadow: none;
 }
 
 #root .eFunNW {
@@ -23,16 +23,15 @@
 
 #root #terraswap {
     background: #fff;
-    height: 200px;
-    padding: 50px;
+    height: 250px;
     margin-bottom: 30px;
     border-radius: 15px;
     text-align: center;
 }
 
 #root .jUTRyE{
-	box-shadow: none;
-	border-radius: 0;
+    box-shadow: none;
+    border-radius: 0;
 }
 
 #root #token-presale-btn {
@@ -51,6 +50,11 @@
 #root .box-swap {
     width: 490px;
     margin: auto;
+    padding-top: 47px;
+}
+
+#root .box-swap p {
+    line-height: 20px;
 }
 
 #root .box-swap h2 {
@@ -63,16 +67,31 @@
     float: left;
 }
 
-#root .box-swap-first {
-    margin-right: 20px;
+.box-swap-background{
     background-color: #fff;
-    padding: 25px;
-    border-radius: 10px;
     min-height: 350px;
     position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#root .box-swap-first {
+    margin-right: 20px;
+    border-radius: 15px;
+    min-height: 200px;
+    position: absolute;
     background-repeat: no-repeat;
+    background-position-x: -26px;
+    background-position-y: 3px;
     background-size: cover;
-    /*background-image: url(./images/bg@2x.png);*/
+    width: 110%;
+    bottom: 0;
+}
+
+.box-swap-first h2{
+    position: absolute;
+    top: -128px;
+    left: 35px;
 }
 
 #root .box-swap-last {
@@ -94,11 +113,6 @@
     margin-top: 30px;
 }
 
-.coming-soon {
-    margin-top: 70px;
-    margin-left: 30px;
-}
-
 .box-swap-last ul {
     margin-top: 20px;
 }
@@ -115,4 +129,39 @@
 .coming-soon-bottom {
     position: absolute;
     bottom: 40px;
+}
+
+.box-swap-image {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    position: absolute;
+    top: -50px;
+}
+
+.box-swap-image img { 
+    width: 50px;
+    margin-right: 20px;
+}
+
+.box-swap-image .coming-soon{
+    margin-top: 10px;
+}
+
+.box-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -19px;
+    background-position-y: -22px;
+    height: 100%;
+    width: 105.5%;
+    border-radius: 15px;
+}
+
+#root .sc-jgHCyG.hRwVTg {
+    display: none;
+}
+
+#root button.sc-dlfnbm.geyxuV {
+    display: none;
 }
